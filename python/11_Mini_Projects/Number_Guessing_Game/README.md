@@ -13,39 +13,6 @@ The computer randomly selects a number between 1 and 100, and the player has to 
 * Handles invalid input
 * Simple beginner-friendly Python project
 
-## Technologies Used
-
-* Python
-* Random module
-
-## Project Structure
-
-```text
-Number_Guessing_Game/
-│
-├── main.py
-└── README.md
-```
-
-## How to Run
-
-### 1. Clone the Repository
-
-```bash
-git clone <your-github-repository-url>
-```
-
-### 2. Open the Project Folder
-
-```bash
-cd Number-Guessing-Game
-```
-
-### 3. Run the Python File
-
-```bash
-python number_guessing_game.py
-```
 
 ## How to Play
 
@@ -89,6 +56,4 @@ This project helps practice:
 * Random number generation
 * f-strings
 
-## Author
 
-Ridhima Dhoni
