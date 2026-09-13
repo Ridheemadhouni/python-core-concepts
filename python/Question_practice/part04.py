@@ -21,7 +21,12 @@ n = 9
 r =8
 print(f"{(n**8)}")
 # 50. Compare two numbers using all comparison operators.
+n1 = 6
+n2 = 9
+
 # 51. Demonstrate and explain the difference between = and ==.
+first = 45 #=this is use to initalization of value in variable
+x= "same" if first == 45 else "not same" #==this is use to check the value.
 # 52. Use +=, -=, *=, /=, //=, %=, and **= in one program.
 # 53. Use logical AND to check whether two conditions are true.
 # 54. Use logical OR to accept either of two valid conditions.
@@ -36,3 +41,19 @@ print(f"{(n**8)}")
 # 63. Convert a two-digit number into its tens and units digits using // and %.
 # 64. Check whether a number is divisible by both 5 and 7.
 # 65. Create a mini calculator using arithmetic operators.
+print("//////////////Mini Calculator//////////////")
+print("1. Addition\n2.Subtraction\n3.divide\n4.multiple")
+choice = int(input("Enter choice: "))
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+match choice:
+    case 1:
+        print(num1+num2)
+    case 2:
+        print(num1-num2)
+    case 3:
+        print(num1/num2)
+    case 4:
+        print(num1*num2)
+    case _:
+        print("defalut choice!!!")
